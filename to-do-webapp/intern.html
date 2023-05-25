@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis todo</title>
+    <link rel="stylesheet" href="intern.css">
+</head>
+<body>
+    <main>
+        <h1 class="jc_c p_m">Task Manager</h1>
+        <article>
+            <div class="user_input flex jc_c">
+                <input type="text" id="taskInput" placeholder="Add a task">
+                <button  id="addTaskBtn">Add Task</button>
+            </div>
+            <div class="lists flex p_m ">
+                <div class="not_completed_list  f_size ">
+                    <h2 class="jc_c font">Yet To Do Tasks:</h2>
+                    <ol class="not_completed" id="notCompletedTasks"></ol>
+                </div>
+                <div class="completed_list f_size">
+                    <h2 class="jc_c font">Completed Tasks:</h2>
+                    <ol class="completed"id="completedTasks">
+                        
+                    </ol>
+                </div>
+            </div>
+
+        </article>
+    </main>
+    <script src="intern.js"></script>
+</body>
+</html>
